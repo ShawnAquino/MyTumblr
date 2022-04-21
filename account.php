@@ -43,7 +43,7 @@ if(isset($_SESSION['ses_username'])===false){
 
 body {
     background: #654ea3;
-    background: linear-gradient(to right, #e96443, #904e95);
+    background: linear-gradient(to left, #ff99ff 5%, #99ccff 99%);
     min-height: 100vh;
     overflow-x: hidden
 }</style>
@@ -85,7 +85,7 @@ body {
             <div class="px-4 py-3">
                 <h5 class="mb-0">Expertise </h5>
                 <div class="p-4 rounded shadow-sm bg-light">
-                    <p class="font-italic mb-0">Amateur Photographer</p>
+                    <p class="font-italic mb-0">Amateur Photographer</p> 
                     <p class="font-italic mb-0">Amateur Videographer</p>
                     <p class="font-italic mb-0">Post Production Editor</p>
                     <p class="font-italic mb-0">Music Producer</p>
